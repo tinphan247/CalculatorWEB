@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Calculator - Basic Mode (Win11-like)</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <main class="calculator-app">
+  <div class="calculator">
+    <div class="display">
+      <div class="sub-display"></div>
+      <div class="main-display">0</div>
+    </div>
+    <div class="buttons">
+      <button class="btn">%</button>
+      <button class="btn">CE</button>
+      <button class="btn">C</button>
+      <button class="btn">←</button>
+      <button class="btn">1/X</button>
+      <button class="btn">X²</button>
+      <button class="btn">√x</button>
+      <button class="btn">÷</button>
+      <button class="btn">7</button>
+      <button class="btn">8</button>
+      <button class="btn">9</button>
+      <button class="btn">×</button>
+      <button class="btn">4</button>
+      <button class="btn">5</button>
+      <button class="btn">6</button>
+      <button class="btn">−</button>
+      <button class="btn">1</button>
+      <button class="btn">2</button>
+      <button class="btn">3</button>
+      <button class="btn">+</button>
+      <button class="btn">±</button>
+      <button class="btn">0</button>
+      <button class="btn">.</button>
+      <button class="btn equals">=</button>
+    </div>
+  </div>
+
+  <!-- 🕓 History panel -->
+    <div class="history-panel hidden">
+    <h3>History</h3>
+    <ul class="history-list"></ul>
+    <button class="btn clear-history">Clear</button>
+  </div>
+  <div class="history-toggle">
+  <i class="fa-solid fa-clock-rotate-left history-icon" id="historyIcon"></i>
+</div>
+
+
+
+</main>
+
+
+  <script src="app.js"></script>
+</body>
+</html>
